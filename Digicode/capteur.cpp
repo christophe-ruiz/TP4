@@ -5,10 +5,9 @@
 namespace nsDigicode {
 
     Capteur::Capteur()
-    {
-    }
+    {}
 
-    int detecter(){
+    int Capteur::detecter(){
         return _kbhit();
     }
 
