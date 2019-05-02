@@ -1,9 +1,10 @@
 #include <iostream>
+#include "systeme.h"
 
 using namespace std;
 
 int main(void)
 {
-    cout << "A vous de compléter le code  !!!"  << endl;
+    nsDigicode::Systeme systeme(5, 20, 4);
     return 0;
 }

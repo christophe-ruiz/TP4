@@ -10,7 +10,14 @@ SOURCES += \
     Chrono.cpp \
     InterfaceDeSaisie.cpp \
     kbhit.cpp \
-    main.cpp
+    main.cpp \
+    alarme.cpp \
+    capteur.cpp \
+    voyant.cpp \
+    clavier.cpp \
+    objettempo.cpp \
+    porte.cpp \
+    systeme.cpp
 
 HEADERS += \
     Archivage.h \
@@ -18,4 +25,10 @@ HEADERS += \
     Chrono.h \
     InterfaceDeSaisie.h \
     kbhit.h \
-    ObjetTempo.h
+    ObjetTempo.h \
+    alarme.h \
+    capteur.h \
+    voyant.h \
+    clavier.h \
+    porte.h \
+    systeme.h

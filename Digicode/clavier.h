@@ -1,11 +1,13 @@
 #ifndef CLAVIER_H
 #define CLAVIER_H
 
-
-class clavier
-{
-public:
-    clavier();
-};
+namespace nsDigicode {
+    class clavier
+    {
+    public:
+        clavier();
+        int saisirChiffre();
+    };
+}
 
 #endif // CLAVIER_H

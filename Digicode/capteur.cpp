@@ -1,6 +1,15 @@
 #include "capteur.h"
+#include "kbhit.h"
 
-Capteur::Capteur()
-{
+
+namespace nsDigicode {
+
+    Capteur::Capteur()
+    {
+    }
+
+    int detecter(){
+        return _kbhit();
+    }
 
 }
